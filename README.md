@@ -28,11 +28,6 @@ The Milstein method introduces an additional term to account for the change in t
 
 \[ X_{t+\Delta t} \approx X_t + \mu X_t \Delta t + \sigma X_t \sqrt{\Delta t} Z_t + \frac{1}{2} \sigma^2 X_t (\Delta t) (Z_t^2 - 1) \]
 
-## Repository Contents
-
-- `euler_method.py`: Contains the implementation of the Euler discretization method.
-- `milstein_method.py`: Contains the implementation of the Milstein discretization method.
-- `README.md`: This file, detailing the repository contents and instructions.
 
 ## Installation
 
